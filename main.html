@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Example of Twitter Typeahead</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script  type="text/javascript" src="../js/typeahead.bundle.js"></script>
+<script  type="text/javascript" src="../ShortBankQ/js/typeahead.bundle.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
     // Defining the local dataset
@@ -15,7 +15,7 @@ $(document).ready(function(){
     var cars = new Bloodhound({
         datumTokenizer: Bloodhound.tokenizers.whitespace,
         queryTokenizer: Bloodhound.tokenizers.whitespace,
-        prefetch: '../data/final.json'
+        prefetch: '../ShortBankQ/data/final.json'
     });
     
     // Initializing the typeahead
